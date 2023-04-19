@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wg+x51EBlXn9a+rf+8uBSuuNrPHTMW4o3VF/sskNZ7UM3eDtVtA+wv/SPcitXUc9mFrszfoF7ImGheJLcelwXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\3TP2\\RiderProjects\\Game\\Game\\Game\\Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\3TP2\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\3TP2\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\3TP2\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512"
+  ],
+  "logs": []
+}

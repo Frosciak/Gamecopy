@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Game"
+             x:Class="Game.MainPage">
+    <Grid>
+    <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <StackLayout Grid.ColumnSpan="2" BackgroundColor="Coral" Orientation="Horizontal" >
+            <Label Grid.ColumnSpan="2" TextColor="DimGray" FontAttributes="Italic"  Margin="10,8,0,0" x:Name="LblSilver" FontSize="15">100</Label>
+            <Image x:Name="ImgSilverCoin" Source="silvercoin.png"></Image>
+            <Label Grid.ColumnSpan="2" FontAttributes="Italic" TextColor="Gold" Margin="20,8,0,0" x:Name="LblGold" FontSize="15">100</Label>
+            <Image x:Name="ImgCoin" Source="coin"></Image>
+        </StackLayout>
+        <Label Grid.Row="2" FontAttributes="Bold" HorizontalOptions="Center" x:Name="Nickname" FontSize="15"></Label>
+        <Label Grid.Column="1" Grid.Row="2" HorizontalOptions="Center" x:Name="NickEnemy"></Label>
+        <Frame Grid.Row="3" BorderColor="Black" Margin="10,0,10,0" >
+            <Image  x:Name="ImgPlayer1"  Source="Player1"/>
+        </Frame>
+        <Frame Grid.Column="1" Grid.Row="3" BorderColor="Black"  Margin="10,0,10,0">
+        <Image   x:Name="ImgPlayer2" Source="enemy1" />
+        </Frame>
+        
+    <Slider Minimum="0" Maximum="100" ThumbColor="Green" MinimumTrackColor="Green" MaximumTrackColor="Red" Grid.Row="4"  Margin="10,0,10,0" InputTransparent = "True" x:Name="HpPlayer1" />
+    <Label Grid.Row="4" Text="100" x:Name="HpPlayer1Lbl"></Label>
+      <Slider Minimum="0" Maximum="100" Value="100" Grid.Row="4"  Grid.Column="1" ThumbColor="Green" MaximumTrackColor="Red" MinimumTrackColor="Green"  x:Name="HpPlayer2" InputTransparent = "True" Margin="10,0,10,0" />
+    <Label Grid.Row="4" Grid.Column="1" Text="100" x:Name="HpPlayer2Lbl"></Label>    
+    <Frame Grid.Row="6" BorderColor="Black" Margin="10,0,0,0">
+            <StackLayout  Grid.Row="6" Margin="20,-5,20,0">
+            <Label x:Name="SilaPlayer1" FontAttributes="Bold" TextColor="DodgerBlue" Text="10"></Label>
+            <Label x:Name="OdpornoscPlayer1" FontAttributes="Bold" TextColor="Goldenrod" Text="0"></Label>
+            <Label x:Name="ZyciePlayer1" FontAttributes="Bold" TextColor="Firebrick" Text="100"></Label>
+            <Label x:Name="SzczesciePlayer1" FontAttributes="Bold" TextColor="ForestGreen" Text="0"></Label>
+                <Label x:Name="DamageP1" FontAttributes="Bold" TextColor="Violet" Text=""></Label>   
+            </StackLayout>
+            </Frame>
+    <Frame Grid.Row="6" Grid.Column="1" BorderColor="Black" Margin="10,0,10,0">
+    <StackLayout  Grid.Column="1" Grid.Row="6" Margin="20,-5,10,0">
+            <Label x:Name="SilaPlayer2" TextColor="DodgerBlue" Text="5"></Label>
+        <Label x:Name="OdpornoscPlayer2" TextColor="Goldenrod" Text="10"></Label>
+            <Label x:Name="ZyciePlayer2" TextColor="Firebrick" Text="50"></Label>
+            <Label x:Name="SzczesciePlayer2" TextColor="ForestGreen" Text="10"></Label>
+            </StackLayout>
+        </Frame>
+    <StackLayout Grid.Row="7">
+    <Button  Text="Attack" Clicked="AttackBtn_OnClicked"></Button>
+    </StackLayout>
+    <StackLayout Grid.Column="1" Grid.Row="7">
+        <Button Text="Upgrade" Clicked="UpgradeBtn_OnClicked"></Button>
+    </StackLayout>
+    </Grid>
+</ContentPage>

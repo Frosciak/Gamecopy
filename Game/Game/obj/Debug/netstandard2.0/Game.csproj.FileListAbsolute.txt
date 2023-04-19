@@ -1,0 +1,14 @@
+C:\Users\3TP2\RiderProjects\Game\Game\Game\bin\Debug\netstandard2.0\Game.deps.json
+C:\Users\3TP2\RiderProjects\Game\Game\Game\bin\Debug\netstandard2.0\Game.dll
+C:\Users\3TP2\RiderProjects\Game\Game\Game\bin\Debug\netstandard2.0\Game.pdb
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.csproj.AssemblyReference.cache
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.AssemblyInfoInputs.cache
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.AssemblyInfo.cs
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.csproj.CoreCompileInputs.cache
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.dll
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\Game.pdb
+C:\Users\3TP2\RiderProjects\Game\Game\Game\obj\Debug\netstandard2.0\stats.xaml.g.cs
